@@ -22,7 +22,7 @@ class UserController extends Controller {
             $q = trim($this->io->get('q'));
         }
 
-        $records_per_page = 10; // number of users per page
+        $records_per_page = 5; // number of users per page
 
         // Call model's pagination method
         $all = $this->UserModel->page($q, $records_per_page, $page);
