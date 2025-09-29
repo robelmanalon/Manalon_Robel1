@@ -64,7 +64,9 @@ $config['VERSION']                 = '4.2.4';
 | -------------------------------------------------------------------
 | Values: development and production
 */
-$config['ENVIRONMENT']             = 'development';
+$config['ENVIRONMENT']             = 'https://manalon-robel1.onrender.com
+
+';
 
 /*
 |--------------------------------------------------------------------------
